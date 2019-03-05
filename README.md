@@ -1,5 +1,4 @@
-# ![Unifi Logo][UnifiLogo] Powershell - Unifi-AP-LED-Control
-# <img src="https://prd-www-cdn.ubnt.com/media/images/ubnt-logo-u.svg" alt="Ubiquiti Logo" width="30px" height="auto" border="10" /> Powershell - Unifi-AP-LED-Control
+# <img src="https://prd-www-cdn.ubnt.com/media/images/ubnt-logo-u.svg" alt="Ubiquiti Logo" width="30px" height="auto" border="10" style="background-color: #00a0df;" /> Powershell - Unifi-AP-LED-Control
 
 This little script is for PowerShell to allow you to control the LED status lights on the Ubiquiti Unifi Wireless Access points via either a [Ubiquiti CloudKey](https://www.ui.com/unifi/unifi-cloud-key/) or other [Unifi Controller](https://www.ui.com/software/).
 
