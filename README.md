@@ -7,4 +7,4 @@ Use is streight forward enough, you can either edit the script to set defaults f
 Exaples are given in the powershell script, call with `Unifi-AP-LED-Control.ps1 -?` to get help or `get-help Unifi-AP-LED-Control.ps1 -examples` to see some examples.
 
 [UnifiLogo]: https://prd-www-cdn.ubnt.com/media/images/ubnt-logo-u.svg
-[MyUnifiLogo]: https://github.com/planetWayne/Powershell-Unifi-AP-LED-Control/images/UBNTLogo.png
+[MyUnifiLogo]: images/UBNTLogo.png
