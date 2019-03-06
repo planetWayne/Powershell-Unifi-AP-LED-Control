@@ -1,4 +1,4 @@
-A simple powershell script to allow control of Ubiquiti Unifi AP's Status LEDs ![Unifi Logo][MyUnifiLogo]
+A simple powershell script to allow control of Ubiquiti Unifi AP's Status LEDs <img align="right" width="100" height="100" src="images/UBNTLogo.png">
 
 ### Note - This is a personally created script NOT created by Ubiquiti but posted here for reference, and is free to use.
 
