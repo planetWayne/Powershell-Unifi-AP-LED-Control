@@ -5,7 +5,7 @@ Gets / Sets the state of a sites LED_STATUS status from a Unifi Controller.
 .Description
 Simply call script with either 'on' or 'off' to change the state of the Unifi AP ring LED's on the access points.
 
-If no paramter is given, this will return the current state of the sites LED_STATUS.
+If no parameter is given, this will return the current state of the sites LED_STATUS.
 
 To use, you can either specify each parameter on the command line or set defaults within the script.
 Change the BaseURI, Username, Password and Site's to match your installation. In doing this, the only thing that needs to be passed is the 'state' if you want to turn it on or off.
@@ -34,7 +34,7 @@ Requests the state of the controller specified with the BaseURI Username and Pas
 
 .PARAMETER BaseURI
 
-Specify the URI for your controller, eg HTTPS://192.168.1.10:8443
+Specify the URI for your controller, e.g. HTTPS://192.168.1.10:8443
 
 .PARAMETER Username
 
@@ -47,7 +47,7 @@ Password for your specified username.
 .PARAMETER Site
 
 Name of the site you want to change.
-Please note that it is possible to rename the default site witout it having to change the name used in the API call.
+Please note that it is possible to rename the default site without it having to change the name used in the API call.
 
 .LINK
 https://www.ui.com/download/unifi/unifi-cloud-key
@@ -59,7 +59,7 @@ https://www.ui.com/software/
 #>
 
 
-# Change yor defaults here!!
+# Change your defaults here!!
 
 param([string]$State="",
     [string]$BaseURI  = "HTTPS://192.168.1.50:8443",
