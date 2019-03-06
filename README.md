@@ -19,7 +19,7 @@ Have a look just after the top comment block <#...#> for the section
 ```PowerShell
 # Change your defaults here!!
 
-param([string]$State="",
+param([string]$State  = "",
     [string]$BaseURI  = "HTTPS://192.168.1.50:8443",
     [string]$Username = "ubnt",
     [string]$Password = "password",

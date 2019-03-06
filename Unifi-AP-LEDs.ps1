@@ -2,8 +2,8 @@
 .SYNOPSIS
 Gets / Sets the state of a sites LED_STATUS status from a Unifi Controller.
 
-.Description
-Simply call script with either 'on' or 'off' to change the state of the Unifi AP ring LED's on the access points.
+.DESCRIPTION
+In its simple form, simply call script with either 'on' or 'off' to change the state of the Unifi AP ring LED's on the access points.
 
 If no parameter is given, this will return the current state of the sites LED_STATUS.
 
@@ -13,7 +13,7 @@ Change the BaseURI, Username, Password and Site's to match your installation. In
 NOTE
 It would appear that if you rename the 'default' site, it will still carry the 'default' name when called via the API.
 
-.example
+.EXAMPLE
 .\Unifi-AP-LEDs.ps1   {no parameters}
 
 Will return the currently set state from the default controllers LED_STATE setting, as coded in the script.
@@ -61,7 +61,7 @@ https://www.ui.com/software/
 
 # Change your defaults here!!
 
-param([string]$State="",
+param([string]$State  = "",
     [string]$BaseURI  = "HTTPS://192.168.1.50:8443",
     [string]$Username = "ubnt",
     [string]$Password = "password",
