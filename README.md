@@ -2,9 +2,11 @@
 
 ### Note - This is a personally created script NOT created by Ubiquiti but posted here for reference, free to use.
 
-This little script is for PowerShell to allow you to control the LED status lights on the Ubiquiti Unifi Wireless Access points via either a [Ubiquiti CloudKey](https://www.ui.com/unifi/unifi-cloud-key/) or other [Unifi Controller](https://www.ui.com/software/).
+This little script is for PowerShell to allow you to control the LED status lights on the Ubiquiti Unifi Wireless Access points via either a [Ubiquiti CloudKey](https://www.ui.com/unifi/unifi-cloud-key/) or other [Unifi Controller](https://www.ui.com/software/). I have seen numerous variations that use CURL or are linux based but nothing that wanted to work under Windows Powershell, hence this.
 
-Use is straight forward enough, you can either edit the script to set defaults for things like the BaseURI of the controller, Username, Password and Unifi Site or pass each parameter as a command line option. If no 'state' is passed, it will return what the controllers current LED_STATUS is set as. Specify the state as 'on' to turn on or 'off' to turn it off again.
+It was also an exercise in learning [MarkDown](https://daringfireball.net/projects/markdown/) and creating a public GitHub site to hold this and get familiar with the process generally.
+
+Use is straight forward enough, you can either edit the script to set defaults for things like the _BaseURI_ of the controller, _Username_, _Password_ and _Site_ or pass each parameter as a command line option. If no _state_ is passed, it will return what the controllers current LED_STATUS is set as. Specify the state as _on_ to turn on or _off_ to turn it off again, simples.
 
 Examples are given in the powershell script, call with `Unifi-AP-LED-Control.ps1 -?` to get help or `get-help Unifi-AP-LED-Control.ps1 -examples`.
 
@@ -25,7 +27,7 @@ param([string]$State="",
 )
 ```
 
-Just change the text within the "" to your new default values. **Note** if you set a default for  '_state_' then you will never be able to enquire as to what the controller has this set to.
+Just change the text within the "" to your new default values. **Note** if you set a default for  '_state_' then you will not be able to enquire as to what the controller has this set to.
 
 ###As taken from the scripts examples
 
@@ -57,6 +59,6 @@ Requests the state of the controller specified with the BaseURI username and pas
 
 ```
 
-
+Enjoy!
 
 [MyUnifiLogo]: images/UBNTLogo.png
