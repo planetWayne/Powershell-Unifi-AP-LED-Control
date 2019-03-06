@@ -4,12 +4,12 @@
 
 This little script is for PowerShell to allow you to control the LED status lights on the Ubiquiti Unifi Wireless Access points via either a [Ubiquiti CloudKey](https://www.ui.com/unifi/unifi-cloud-key/) or other [Unifi Controller](https://www.ui.com/software/).
 
-Use is straight forward enough, you can either edit the script to set defaults for things like the BaseURI of the controller, Username, Password and Unifi Site or pass each parameter as a command line option. If no 'state' is passed then it will return what the current LED state is or specifying 'on' to turn on or 'off' to turn it off again.
+Use is straight forward enough, you can either edit the script to set defaults for things like the BaseURI of the controller, Username, Password and Unifi Site or pass each parameter as a command line option. If no 'state' is passed, it will return what the controllers current LED_STATUS is set as. Specify the state as 'on' to turn on or 'off' to turn it off again.
 
-Examples are given in the powershell script, call with `Unifi-AP-LED-Control.ps1 -?` to get help or `get-help Unifi-AP-LED-Control.ps1 -examples` to see some examples.
+Examples are given in the powershell script, call with `Unifi-AP-LED-Control.ps1 -?` to get help or `get-help Unifi-AP-LED-Control.ps1 -examples`.
 
 
-The actual complexities of this script was more the writing of the inbuilt documentation to work with powershell itself rather than the 'working' bits. TBH there are only two working lines that actually inquire on the controller to a) log in and get a session and b) either enquire on the state or change the state of the LED_STATUS setting.
+The actual complexities of this script was more the writing of the inbuilt documentation to work with powershell itself rather than the 'working' bits. TBH there are only two working lines that actually inquire on the controller to a) log in and get a session and b) either enquire on the state or change the state of the LED_STATUS setting. The rest is documentation and a little logic to set or get the results.
 
 ## Changing Script Defaults
 Have a look just after the top comment block <#...#> for the section
