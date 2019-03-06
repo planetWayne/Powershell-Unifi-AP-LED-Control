@@ -99,7 +99,7 @@ $Body=@{}
 
 if ("on","off" -contains $state)
 {
-    write-host "Setting LED State $State"
+    write-host "Setting LED State '$State'"
     $Body.led_enabled = $(if($state -eq "on") {"true"} else {"false"})
 }
 
@@ -108,3 +108,4 @@ $result = Invoke-WebRequest -uri "$($BaseURI)/api/s/$($Site)/set/setting/mgmt"  
 $LED_Status = if( (convertfrom-json $result.content).data.led_enabled -eq "true") {"On"} else {"Off"} 
 
 write-host "Controller reports status as '$LED_Status'"
+# return $LED_Status
