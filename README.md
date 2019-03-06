@@ -25,9 +25,9 @@ param([string]$State="",
 )
 ```
 
-Just change the text within the "" to your new default values. #note# if you change the default for 'state' then you will never actually get the state back as not specifying it will either turn it on or off respectively.
+Just change the text within the "" to your new default values. **Note** if you set a default for  '_state_' then you will never be able to enquire as to what the controller has this set to.
 
-As taken from the scripts examples
+###As taken from the scripts examples
 
 ```
 -------------------------- EXAMPLE 1 --------------------------
