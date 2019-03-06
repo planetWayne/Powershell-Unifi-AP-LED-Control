@@ -1,4 +1,5 @@
-# ![Unifi Logo][MyUnifiLogo] Powershell - Unifi-AP-LED-Control
+
+![Unifi Logo][MyUnifiLogo] # Powershell - Unifi-AP-LED-Control
 
 ### Note - This is a personally created script NOT created by Ubiquiti but posted here for reference, free to use.
 
