@@ -14,17 +14,17 @@ NOTE
 It would appear that if you rename the 'default' site, it will still carry the 'default' name when called via the API.
 
 .EXAMPLE
-.\Unifi-AP-LEDs.ps1   {no parameters}
+.\Unifi-AP-LED-Control.ps1   {no parameters}
 
 Will return the currently set state from the default controllers LED_STATE setting, as coded in the script.
 
 .EXAMPLE
-.\Unifi-AP-LEDs.ps1 on
+.\Unifi-AP-LED-Control.ps1 on
 
 Changes the LED_STATUS on the default unifi controller to ON - thus turning on the AP's status LED
 
 .EXAMPLE
-.\Unifi-AP-LEDs.ps1 on -BaseURI https:\\192.168.1.10:8443 -Username admin -Password mysecret -Site site3
+.\Unifi-AP-LED-Control.ps1 on -BaseURI https:\\192.168.1.10:8443 -Username admin -Password mysecret -Site site3
 
 Requests the state of the controller specified with the BaseURI Username and Passwords that are not defaulted in the script.
 

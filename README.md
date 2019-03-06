@@ -20,7 +20,7 @@ Examples are given in the powershell script, call with `Unifi-AP-LED-Control.ps1
 The actual complexities of this script was more the writing of the inbuilt documentation to work with powershell itself rather than the 'working' bits. TBH there are only two working lines that actually inquire on the controller to a) log in and get a session and b) either enquire on the state or change the state of the LED_STATUS setting. The rest is documentation and a little logic to set or get the results.
 
 ## Changing Script Defaults
-Have a look just after the top comment block <#...#> for the section
+Have a look just after the top comment block `<#...#>` for the section
 
 ```PowerShell
 # Change your defaults here!!
@@ -40,7 +40,7 @@ Just change the text within the "" to your new default values. **Note** if you s
 ```
 -------------------------- EXAMPLE 1 --------------------------
 
-PS C:\>.\Unifi-AP-LEDs.ps1   {no parameters}
+PS C:\>.\Unifi-AP-LED-Control.ps1   {no parameters}
 
 Will return the currently set state from the default controllers LED_STATE setting, as coded in the script.
 
@@ -50,7 +50,7 @@ Will return the currently set state from the default controllers LED_STATE setti
 ```
 -------------------------- EXAMPLE 2 --------------------------
 
-PS C:\>.\Unifi-AP-LEDs.ps1 on
+PS C:\>.\Unifi-AP-LED-Control.ps1 on
 
 Changes the LED_STATUS on the default unifi controller to ON - thus turning on the AP's status LED
 
@@ -59,7 +59,7 @@ Changes the LED_STATUS on the default unifi controller to ON - thus turning on t
 ```
 -------------------------- EXAMPLE 3 --------------------------
 
-PS C:\>.\Unifi-AP-LEDs.ps1 on -BaseURI https:\\192.168.1.10:8443 -Username admin -Password mysecret -Site site3
+PS C:\>.\Unifi-AP-LED-Control.ps1 on -BaseURI https:\\192.168.1.10:8443 -Username admin -Password mysecret -Site site3
 
 Requests the state of the controller specified with the BaseURI username and passwords that are not defaulted in the script.
 
