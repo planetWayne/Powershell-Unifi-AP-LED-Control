@@ -16,12 +16,12 @@ It would appear that if you rename the 'default' site, it will still carry the '
 .EXAMPLE
 .\Unifi-AP-LED-Control.ps1   {no parameters}
 
-Will return the currently set state from the default controllers LED_STATE setting, as coded in the script.
+Will return the currently set state from the default controllers LED_Enabled setting, as coded in the script.
 
 .EXAMPLE
 .\Unifi-AP-LED-Control.ps1 on
 
-Changes the LED_STATUS on the default unifi controller to ON - thus turning on the AP's status LED
+Changes the LED_Enabled status on the default unifi controller to ON - thus turning on the AP's status LED
 
 .EXAMPLE
 .\Unifi-AP-LED-Control.ps1 on -BaseURI https:\\192.168.1.10:8443 -Username admin -Password mysecret -Site site3
