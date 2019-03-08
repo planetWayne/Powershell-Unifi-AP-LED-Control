@@ -6,6 +6,8 @@ A simple powershell script to allow control of Ubiquiti Unifi AP's Status LEDs
 #### Download Script -> [Unifi-AP-LED-Control.ps1](Unifi-AP-LED-Control.ps1)
 ![GitHub forks](https://img.shields.io/github/forks/planetWayne/Powershell-Unifi-AP-LED-Control.svg?logo=github&logoColor=1DA1F2&style=flat&colorA=blueviolet&colorB=1DA1F2)(http://github.com/planetWayne/Powershell-Unifi-AP-LED-Control/fork) ![GitHub repo size in bytes](https://img.shields.io/github/repo-size/planetWayne/Powershell-Unifi-AP-LED-Control.svg?logo=github&style=flat&logoColor=1DA1F2&colorA=blueviolet&colorB=1DA1F2) ![GitHub last commit](https://img.shields.io/github/last-commit/planetWayne/Powershell-Unifi-AP-LED-Control.svg?logo=github2&colorA=blueviolet&colorB=1DA1F2&style=flat)
 
+<img alt="GitHub forks" src="https://img.shields.io/github/forks/planetWayne/Powershell-Unifi-AP-LED-Control.svg?style=social">
+
 ---------
 ## Background
 
